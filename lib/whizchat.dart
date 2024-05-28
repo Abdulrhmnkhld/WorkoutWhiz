@@ -24,7 +24,7 @@ class _WhizChatPageState extends State<WhizChatPage> {
   void _initializeChat() {
     _model = GenerativeModel(
       model: 'gemini-pro',
-      apiKey: 'AIzaSyApk6uYBPf45NN74wcgQlzrsTAg9rUYhhE',
+      apiKey: '', 
     );
     _chatSession = _model.startChat(history: [
       Content.text("Heyy, it's your Virtual Coach (Whiz) how can I help you? Would you like a prediction of your next big lift!")
